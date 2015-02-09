@@ -1,0 +1,32 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	float: right;
+	padding: 5px;
+}
+
+#content{
+	position: absolute;
+	top: 190px;
+	right: 975px;
+}
+
+.icons{
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	background: url(../images/icons.png);
+	background-repeat: no-repeat;
+}
+
+.grid{
+	background-position: 350px 110px;
+}
+
+
+.crop { background: url(../images/icons.png); overflow: hidden; background-repeat:no-repeat;}
+.crop img { width: 20%; position: relative; top: -70px; left:-270px;}
