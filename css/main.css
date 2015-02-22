@@ -2,45 +2,79 @@ ul{
 	list-style-type: none;
 }
 
-ul li:nth-child(4),ul li:nth-child(5),ul {min-width: 30px;min-height:30px}
-
 li {
 	display: inline-block;
 	vertical-align: middle;
-	margin-right: 10px
+	margin-right: 20px;
  }
 
 
 .nav{
 	float: right;
-	margin: 7px 15px 0px 0px;
+	margin-top:10px;
+	margin-right:10px;
+	font-family: arial;
+	font-size: 12px;
 }
+
+span{
+	position: absolute;
+	top: 260px;
+	left: 590px;
+	right: 0px;
+	color:#777;
+	font-weight: bold;
+	font-family: arial;
+
+}
+
 
 #content{
-	position: absolute;
-	top: 190px;
-	right: 975px;
-}
+	position: relative;
+	top: 188px;
+	left: 380px;
 
-.bell {
-    background-image: url("../images/sprite.png");
-    background-position: -69px -69px;
-    position: absolute;
-    width: 30px;
-    height: 30px;
 }
 
 .apps {
     background-image: url("../images/sprite.png");
     background-position: -69px -854px;
-    position: absolute;
-    width: 30px;
-    height: 30px;
+    position:absolute;
+    top:12px;
+    left: 823px;
+    width:30px;
+    height:30px;
 }
 
+form{
+	position:absolute;
 
-.share {
-	border-radius: 1px;
-	background-color: #f4f4f4;
-	padding: 7px 15px
- }
+	top: 310px;
+	left: 240px;
+	right: 0px;
+
+
+}
+
+.btn1{
+	position: relative;
+	top:255px;
+	left:400px;	
+}
+
+.btn2{
+	position: relative;
+	top:255px;
+	left:410px;	
+}
+
+button{
+	border-radius: 2px;
+	padding:5px;
+	background-color: #F2F2F2;
+	border:1px solid #D9D9D9;
+	font-family: arial;
+	font-size: 12px;
+	color: #5E5E5E;
+	font-weight: bold;
+}
