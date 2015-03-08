@@ -8,7 +8,6 @@ li {
 	margin-right: 20px;
  }
 
-
 .nav{
 	float: right;
 	margin-top:10px;
@@ -18,54 +17,21 @@ li {
 }
 
 span{
-	position: absolute;
-	top: 260px;
-	left: 590px;
-	right: 0px;
+	position: relative;
+	top:-10px;
+	right: 51px;
 	color:#777;
 	font-weight: bold;
 	font-family: arial;
 
 }
 
-
-#content{
-	position: relative;
-	top: 188px;
-	left: 380px;
-
-}
-
-.apps {
-    background-image: url("../images/sprite.png");
-    background-position: -69px -854px;
-    position:absolute;
-    top:12px;
-    left: 823px;
-    width:30px;
-    height:30px;
-}
-
-form{
-	position:absolute;
-
-	top: 310px;
-	left: 240px;
-	right: 0px;
-
-
-}
-
-.btn1{
-	position: relative;
-	top:255px;
-	left:400px;	
-}
-
-.btn2{
-	position: relative;
-	top:255px;
-	left:410px;	
+.google{
+	position:relative;
+	margin: 0 auto;
+	display:block;
+	width:360px;
+	top:200px;
 }
 
 button{
@@ -78,3 +44,25 @@ button{
 	color: #5E5E5E;
 	font-weight: bold;
 }
+
+.content{
+	position:relative;
+	top:10px;
+}
+
+
+form{
+
+
+}
+
+.btn1{
+
+
+}
+
+.btn2{
+
+	
+}
+
